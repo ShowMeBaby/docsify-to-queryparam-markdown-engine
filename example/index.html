@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon" />
+    <title>docsify-to-queryparam-markdown-engine</title>
+    <meta name="docsify-to-queryparam-markdown-engine" content="v1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="use docsify as markdown engine, get markdown link from queryparam and render">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  </head>
+  <body>
+    <div id="app">加载中，请稍后...</div>
+    <script>
+      window.$docsify = {
+        queryParamMarkdownEngine:{
+          // hideClassName:['sidebar']
+        },
+        routerMode: 'hash',
+        noEmoji: false, 
+        autoHeader: true, 
+        subMaxLevel: 10, 
+        auto2top: true, 
+        mergeNavbar: true,
+      }
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="/docsify-to-queryparam-markdown-engine.js"></script>
+  </body>
+</html>

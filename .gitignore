@@ -1,0 +1,4 @@
+/example/.htaccess
+/example/nginx.htaccess
+/node_modules
+/package-lock.json

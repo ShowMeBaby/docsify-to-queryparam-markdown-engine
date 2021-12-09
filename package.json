@@ -1,0 +1,36 @@
+{
+  "name": "docsify-to-queryparam-markdown-engine",
+  "version": "1.0.0",
+  "description": "use docsify as markdown engine, get markdown link from queryparam and render",
+  "main": "src",
+  "scripts": {
+    "build": "npm run build:dev && npm run build:prod && npm run build:example",
+    "build:dev": "webpack src/index.js -o dist/docsify-to-queryparam-markdown-engine.js --mode=development",
+    "build:prod": "webpack src/index.js -o dist/docsify-to-queryparam-markdown-engine.min.js --mode=production",
+    "build:example": "webpack src/index.js -o example/docsify-to-queryparam-markdown-engine.js --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:ShowMeBaby/docsify-to-queryparam-markdown-engine.git"
+  },
+  "keywords": [
+    "docsify",
+    "docsify plugin",
+    "markdown engine"
+  ],
+  "files": [
+    "src",
+    "dist",
+    "README.md"
+  ],
+  "author": "ShowMeBaby(retrocode@qq.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShowMeBaby/docsify-to-queryparam-markdown-engine/issues"
+  },
+  "homepage": "https://github.com/ShowMeBaby/docsify-to-queryparam-markdown-engine#readme",
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
