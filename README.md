@@ -24,7 +24,11 @@ Use docsify as markdown engine, get markdown link from queryparam and render
 ## Usage
 Write your remote-markdown code like this:
 
-> https://retrocode.io/#/?custom=1&mdurl=https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/README.md
+> demo1Url: https://retrocode.io/#/?custom=1&mdurl=https://cdn.jsdelivr.net/gh/docsifyjs/docs-zh@master/README.md
+> 
+> demo2Url: https://retrocode.io/#/%E6%8A%80%E5%B7%A7/Markdown%E8%AF%AD%E6%B3%95?custom=1
+> 
+> demo3Url: https://retrocode.io/#/?mdurl=https://docsify.js.org/README.md
 
 
 It will be replaced by the raw text of the **mdurl** above into your doc file content.
