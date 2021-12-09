@@ -9,7 +9,7 @@ Use docsify as markdown engine, get markdown link from queryparam and render
     <script>
     window.$docsify = {
       queryParamMarkdownEngine: {
-        hideClassName: [], // default ['cover','sidebar','sidebar-toggle','github-corner']
+        hideClassName: ['cover','sidebar','sidebar-toggle','github-corner'], // default ['cover','sidebar','sidebar-toggle','github-corner']
       },
     }
     </script>
@@ -29,7 +29,7 @@ Write your remote-markdown code like this:
 
 It will be replaced by the raw text of the **mdurl** above into your doc file content.
 
-If queryparam has 'custom=1' then will all 'hideClassName' elements style to 'display:none'
+If queryparam has 'custom=1' then will set all 'hideClassName' elements style to 'display:none'
 
 ## Options
 
@@ -49,7 +49,7 @@ window.$docsify = {
 ## Example
 
 - [index.html](example/index.html)
-- [README.md](https://raw.githubusercontent.com/jerryc8080/docsify-remote-markdown/master/example/README.md)
+- [README.md](example/README.md)
 
 # License
 
